@@ -1,3 +1,5 @@
+파일 이름 assignment.py
+---------------------------------------
 # 평균 점수 구하는 함수
 def meanScore(dic):
     total = 0
@@ -22,7 +24,6 @@ def comMulti(num1, num2, data):
 
 
 --------------------------------------------------------------------------------
-assignment.py
 
 from assignment import (meanScore, comMulti)
 # 과제 1 : 딕셔너리를 이용해서 평균 점수 구하기
