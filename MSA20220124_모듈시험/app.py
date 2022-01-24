@@ -2,7 +2,7 @@ from flask import Flask
 import json, requests
 
 app = Flask(__name__)
-
+app.config['JSON_AS_ASCII'] = False
 
 @app.route('/')
 def hello():
@@ -23,4 +23,4 @@ def FlaskData():
 
  
 
-데이터가 한글로 안나옵니다.
+
